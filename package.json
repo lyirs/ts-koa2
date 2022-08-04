@@ -1,0 +1,39 @@
+{
+    "name": "tk-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon",
+        "build": "rm -rf dist && tsc",
+        "start": "node dist/server.js",
+        "server": "nodemon dist/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/koa": "^2.13.5",
+        "@types/koa-router": "^7.4.4",
+        "@typescript-eslint/eslint-plugin": "^5.30.7",
+        "@typescript-eslint/parser": "^5.30.7",
+        "eslint": "^8.20.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "nodemon": "^2.0.19",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.0-dev.20220719"
+    },
+    "dependencies": {
+        "@types/koa-bodyparser": "^4.3.7",
+        "@types/koa-static": "^4.0.2",
+        "@types/koa2-cors": "^2.0.2",
+        "@types/mime-types": "^2.1.1",
+        "koa": "^2.13.4",
+        "koa-bodyparser": "^4.3.0",
+        "koa-router": "^12.0.0",
+        "koa-static": "^5.0.0",
+        "koa2-cors": "^2.0.6",
+        "mime-types": "^2.1.35"
+    }
+}
