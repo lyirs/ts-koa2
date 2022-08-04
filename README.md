@@ -1,4 +1,4 @@
-# react-ts-webpack-eslint
+# typescript-koa2
 
 typescript+koa2 简易脚手架  
 支持 nodemon 热更新
